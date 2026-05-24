@@ -540,7 +540,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung eines ausgeklügelten Empfehlungssystems, das Nutzerprofile, Forschungsinteressen und fachliche Schwerpunkte für personalisierte Literaturempfehlungen nutzt.",
     "externalPrograms": "Öffentlich verfügbares Empfehlungssystem für Studierende und Forschende der USP mit KI-gestützter Fachliteratur-Suche.",
     "activities": ["Literature Recommendations", "User Profiling", "Research Support", "Academic AI"],
-    "website": "https://www.sib.usp.br/",
+    "website": "https://www.abcd.usp.br/",
     "dates": "System seit 2023 aktiv",
     "tags": ["Empfehlungen", "KI/AI"],
     "language": "Englisch"
@@ -570,7 +570,7 @@ const libraryData = [
     "internalImplementation": "Spezialisierte KI-Algorithmen zur automatischen Erkennung und Indexierung katalanischer Kulturgüter und historischer Dokumente.",
     "externalPrograms": "Bereitstellung durchsuchbarer digitaler Sammlungen katalanischer Kultur für Forscher und die interessierte Öffentlichkeit.",
     "activities": ["Katalanische Digitalisierung", "OCR", "Metadaten-KI", "Cultural Heritage"],
-    "website": "https://www.bnc.cat/",
+    "website": "https://en.wikipedia.org/wiki/National_Library_of_Catalonia",
     "dates": "Projekte seit 2024",
     "tags": ["OCR", "KI/AI", "Metadaten", "Digitalisierung"],
     "language": "Spanisch"
@@ -615,7 +615,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung spezialisierter KI-Systeme zur Erkennung und Transkription historischer italienischer Handschriften aus der Renaissance-Zeit.",
     "externalPrograms": "Öffentliche Forschungsplattform mit KI-gestützten Suchfunktionen für italienisches Kulturerbe. Workshops für Studierende der Kunstgeschichte und Italienistik.",
     "activities": ["DigItalia AI", "Renaissance-Handschriften", "Kulturerbe-KI", "Kunstgeschichte"],
-    "website": "https://bncr.librari.beniculturali.it/",
+    "website": "https://en.wikipedia.org/wiki/Biblioteca_Nazionale_Centrale_di_Roma",
     "dates": "Projekt seit 2024",
     "tags": ["OCR", "KI/AI", "Digitalisierung"],
     "language": "Italienisch"
@@ -705,7 +705,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung von KI-Systemen für über 15 indische Sprachen zur Digitalisierung und Erschließung des reichen kulturellen Erbes Indiens.",
     "externalPrograms": "Mehrsprachige digitale Plattform für indisches Kulturerbe. KI-Workshops für südasiatische Bibliothekare und Forscher.",
     "activities": ["Multilingual Indian AI", "Cultural Heritage", "15+ Sprachen", "Südasien-Kooperation"],
-    "website": "https://nli.gov.in/",
+    "website": "https://en.wikipedia.org/wiki/National_Library_of_India",
     "dates": "Großprojekt seit 2024",
     "tags": ["OCR", "KI/AI", "Digitalisierung"],
     "language": "Englisch"
@@ -795,7 +795,7 @@ const libraryData = [
     "internalImplementation": "Produktiver Einsatz von Annif (maschinelles Lernen für automatische Inhaltserschließung) im Regelbetrieb. Integration in bestehende Katalogisierungs-Workflows für schnellere und konsistentere Verschlagwortung.",
     "externalPrograms": "Veröffentlichung von Annif als Open-Source-Tool für andere Bibliotheken. Beiträge zur internationalen Community und Weitergabe von Trainingsmodellen.",
     "activities": ["Annif-Open-Source", "Automatische Erschließung", "ML-Verschlagwortung", "Open-Source-Community"],
-    "website": "https://zbw.eu/de/forschung/science-2-0/textmining",
+    "website": "https://www.zbw.eu/en/",
     "dates": "Produktivbetrieb seit 2020",
     "tags": ["KI/AI", "Metadaten", "Erschließung"],
     "language": "Deutsch"
@@ -826,7 +826,7 @@ const libraryData = [
     "internalImplementation": "Automatisiertes Retrokatalogisierungsprojekt seit Oktober 2022 mit KI und Power Platform. Laufende Entwicklung von LLM-gestützter Sacherschließung mit Python. Ziel: massive Beschleunigung der Erschließungsrückstände.",
     "externalPrograms": "Bereitstellung erschlossener historischer Sammlungen für Forschende und die Öffentlichkeit. Präsentation der Methodik auf internationalen Bibliothekskonferenzen.",
     "activities": ["Retrokatalogisierung KI", "Power Platform", "LLM-Erschließung", "Historische Bestände"],
-    "website": "https://www.kbr.be/",
+    "website": "https://www.kbr.be/en/",
     "dates": "Retrokatalog-Projekt seit Oktober 2022",
     "tags": ["KI/AI", "Erschließung", "Metadaten"],
     "language": "Englisch"
