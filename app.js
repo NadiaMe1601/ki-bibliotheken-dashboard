@@ -756,6 +756,81 @@ const libraryData = [
     "language": "Arabisch"
   },
   {
+    "name": "SUB Göttingen – LibraryAI",
+    "location": "Deutschland / Göttingen",
+    "city": "Göttingen",
+    "country": "Deutschland",
+    "type": "Universitätsbibliothek",
+    "description": "KI-gestützter Recherche-Assistent 'LibraryAI' entwickelt in Kooperation mit Universität Göttingen und GWDG – vereinfacht akademische Literatursuche per natürlicher Sprache.",
+    "internalImplementation": "Entwicklung eines virtuellen KI-Assistenten (LibraryAI) in Partnerschaft mit der Universität Göttingen und dem GWDG-Rechenzentrum. Das System nutzt LLM-Technologie zur natürlichsprachlichen Literaturrecherche und Bestandsauskunft.",
+    "externalPrograms": "Öffentlich zugänglicher KI-Assistent für Studierende und Forschende zur vereinfachten Literaturrecherche. Einführungs-Workshops und Schulungen für Universitätsangehörige.",
+    "activities": ["LLM-Rechercheassistent", "Natürliche Sprachsuche", "GWDG-Kooperation", "Akademischer Service"],
+    "website": "https://www.sub.uni-goettingen.de/",
+    "dates": "Geplanter Start Ende 2025",
+    "tags": ["Chatbot", "KI/AI"],
+    "language": "Deutsch"
+  },
+  {
+    "name": "Landesfachstelle Sachsen-Anhalt & Mindverse",
+    "location": "Deutschland / Halle (Saale)",
+    "city": "Halle (Saale)",
+    "country": "Deutschland",
+    "type": "Öffentliche Bibliothek",
+    "description": "Modellprojekt 'KI in öffentlichen Bibliotheken': 43 Bibliotheken testen ein All-in-One-KI-Ökosystem (Texterstellung, Recherche, Bildgenerierung) bis Oktober 2025.",
+    "internalImplementation": "Einsatz der Mindverse-Plattform als integriertes KI-Ökosystem für Bibliotheksworkflows – Texterstellung, Bildgenerierung und Wissensrecherche in einer Oberfläche. Begleitung durch die Landesfachstelle.",
+    "externalPrograms": "43 öffentliche Bibliotheken Sachsen-Anhalts nehmen am Pilotprojekt teil und bieten Bürger*innen erste KI-gestützte Serviceleistungen und Informationsveranstaltungen an.",
+    "activities": ["All-in-One-KI-Ökosystem", "Mindverse-Plattform", "Bildgenerierung", "Flächendeckendes Pilotprojekt"],
+    "website": "https://lvwa.sachsen-anhalt.de/das-lvwa/kultur-denkmalschutz/landesfachstelle-fuer-oeffentliche-bibliotheken/aktuell-und-informativ",
+    "dates": "Pilotphase bis Oktober 2025",
+    "tags": ["KI/AI", "Workshop", "KI-Literacy"],
+    "language": "Deutsch"
+  },
+  {
+    "name": "Universitätsbibliothek Kassel",
+    "location": "Deutschland / Kassel",
+    "city": "Kassel",
+    "country": "Deutschland",
+    "type": "Universitätsbibliothek",
+    "description": "Umfassendes KI-Angebot für Forschung und Lehre: kuratierte Tool-Übersichten (Semantic Scholar, ORKG Ask), Workshops und Beratung zu Chancen und Risiken von KI in der Wissenschaft.",
+    "internalImplementation": "Aufbau einer strukturierten KI-Ressourcenseite mit kuratierten Tool-Empfehlungen, Hinweisen zu Nutzungsgrenzen und Integration wissenschaftlicher KI-Tools in Rechercheservices.",
+    "externalPrograms": "Workshops und Lehrveranstaltungen zu KI in der Wissenschaft für Studierende und Forschende. Beratungsangebote zu ethischem KI-Einsatz und akademischer Integrität.",
+    "activities": ["Kuratierte KI-Tools", "Semantic Scholar", "ORKG Ask", "KI-Ethik-Beratung"],
+    "website": "https://www.uni-kassel.de/uni/aktuelles-aus-der-universitaet/infothek/themenfeld-kuenstliche-intelligenz-ki/anwendungsfelder-serviceangebote/ki-angebote-der-universitaetsbibliothek.html",
+    "dates": "Laufendes Angebot seit 2024",
+    "tags": ["KI/AI", "KI-Literacy", "Workshop"],
+    "language": "Deutsch"
+  },
+  {
+    "name": "Fachstelle für öffentliche Bibliotheken NRW",
+    "location": "Deutschland / Düsseldorf",
+    "city": "Düsseldorf",
+    "country": "Deutschland",
+    "type": "Öffentliche Bibliothek",
+    "description": "Zentrale Anlaufstelle für NRW-Bibliotheken: Themenwebsite 'Bibliotheken und KI' mit Projektbeispielen, Literaturempfehlungen, Selbstlernkursen und Praxis-Tool-Tipps.",
+    "internalImplementation": "Aufbau und Pflege einer dedizierten Wissensplattform zu KI für öffentliche Bibliotheken in NRW. Kuratierung von Ressourcen, Werkzeugempfehlungen und Vernetzung der Bibliotheken untereinander.",
+    "externalPrograms": "Kostenfreie Themenwebsite für alle Bibliotheksfachkräfte in NRW. Fortbildungsveranstaltungen, Handlungsempfehlungen und Praxisbeispiele für den Einstieg in KI-Angebote.",
+    "activities": ["KI-Themenwebsite NRW", "Fortbildungsangebote", "Selbstlernkurse", "Tool-Empfehlungen"],
+    "website": "https://fachstelle-oeffentliche-bibliotheken.nrw/2024/10/neue-themen-website-zu-bibliotheken-und-ki/",
+    "dates": "Seit Oktober 2024 aktiv",
+    "tags": ["KI/AI", "KI-Literacy", "Training"],
+    "language": "Deutsch"
+  },
+  {
+    "name": "ZBW – Leibniz-Informationszentrum Wirtschaft",
+    "location": "Deutschland / Hamburg",
+    "city": "Hamburg",
+    "country": "Deutschland",
+    "type": "Universitätsbibliothek",
+    "description": "Einsatz von 'Annif' zur KI-gestützten automatischen Erschließung wirtschaftswissenschaftlicher Literatur – eines der führenden Open-Source-Projekte für ML-basierte Bibliothekserschließung weltweit.",
+    "internalImplementation": "Produktiver Einsatz von Annif (maschinelles Lernen für automatische Inhaltserschließung) im Regelbetrieb. Integration in bestehende Katalogisierungs-Workflows für schnellere und konsistentere Verschlagwortung.",
+    "externalPrograms": "Veröffentlichung von Annif als Open-Source-Tool für andere Bibliotheken. Beiträge zur internationalen Community und Weitergabe von Trainingsmodellen.",
+    "activities": ["Annif-Open-Source", "Automatische Erschließung", "ML-Verschlagwortung", "Open-Source-Community"],
+    "website": "https://zbw.eu/de/forschung/science-2-0/textmining",
+    "dates": "Produktivbetrieb seit 2020",
+    "tags": ["KI/AI", "Metadaten", "Erschließung"],
+    "language": "Deutsch"
+  },
+  {
     "name": "Russian State Library",
     "location": "Russland / Moskau",
     "city": "Moskau",
@@ -1132,7 +1207,9 @@ function getTagClass(tag) {
     'Metadaten': 'tag--metadaten',
     'Training': 'tag--training',
     'Digitalisierung': 'tag--digitalisierung',
-    'Robotik': 'tag--ki'
+    'Robotik': 'tag--ki',
+    'KI-Literacy': 'tag--training',
+    'Erschließung': 'tag--metadaten'
   };
   
   return tagMap[tag] || 'tag--ki';
