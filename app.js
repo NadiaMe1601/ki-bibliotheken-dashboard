@@ -37,12 +37,12 @@ const libraryData = [
     "city": "Frankfurt",
     "country": "Deutschland",
     "type": "Nationalbibliothek",
-    "description": "KI-gestützte Metadatenerschließung und Verbesserung von OCR-Ergebnissen.",
-    "internalImplementation": "Einsatz von KI-Technologien zur automatisierten Metadaten-Erstellung und OCR-Verbesserung für die Erschließung der nationalen digitalen Sammlungen.",
-    "externalPrograms": "Bereitstellung verbesserter OCR-Ergebnisse für Forschende und Öffentlichkeit. Kooperationsprojekte zur KI-gestützten Digitalisierung mit anderen Bibliotheken.",
-    "activities": ["KI-Metadaten-Pflege", "OCR-Optimierung", "Digitale Erschließung", "Automatisierte Katalogisierung"],
-    "website": "https://www.dnb.de/EN/Professionell/ProjekteKooperationen/Projekte/KI/ki_node.html",
-    "dates": "Laufende Projekte seit 2023",
+    "description": "KI-gestützte Metadatenerschließung, OCR-Optimierung und Gastgeberin der jährlichen Tagung 'KI in Bibliotheken weiterdenken' (7. Auflage Januar 2026).",
+    "internalImplementation": "Produktiver Einsatz von KI zur automatisierten Metadaten-Erstellung und OCR-Verbesserung in der Erschließung. Koordination des 'Netzwerks maschinelle Verfahren in der Erschließung' mit jährlicher Fachtagung.",
+    "externalPrograms": "Jährliche Tagung 'KI in Bibliotheken weiterdenken' (Januar 2026, 7. Auflage) mit Schwerpunkt LLMs, Datenqualität und Ethik. Bereitstellung verbesserter OCR-Ergebnisse für Forschende.",
+    "activities": ["KI-Metadaten-Erschließung", "OCR-Optimierung", "Jährliche KI-Tagung", "Netzwerk maschinelle Verfahren"],
+    "website": "https://blog.dnb.de/tagungsbericht-ki-in-bibliotheken-weiterdenken/",
+    "dates": "Laufende Projekte seit 2023; Tagung Januar 2026",
     "tags": ["KI/AI", "Metadaten", "OCR"],
     "language": "Deutsch"
   },
@@ -52,11 +52,11 @@ const libraryData = [
     "city": "Köln",
     "country": "Deutschland",
     "type": "Universitätsbibliothek",
-    "description": "Online-Seminar zur Entwicklung maßgeschneiderter KI-Chatbots für Bibliotheken.",
+    "description": "Weiterbildungszentrum für Bibliotheks- und Informationswissenschaft mit KI-bezogenen Seminaren und Workshops für Bibliotheksfachpersonal.",
     "internalImplementation": "Entwicklung und Durchführung von Weiterbildungsprogrammen zur KI-Integration in Bibliotheken mit praktischen Übungskomponenten.",
     "externalPrograms": "Öffentliche Seminare und Workshops für Bibliothekspersonal zur Entwicklung eigener KI-Chatbots. Zertifizierungsprogramme für KI-Kompetenz in Bibliotheken.",
     "activities": ["KI-Chatbot Seminare", "Praxis-Workshops", "Weiterbildung", "Zertifizierung"],
-    "website": "https://www.th-koeln.de/weiterbildung/zertifikatskurs-ki-in-bibliotheken_98655.php",
+    "website": "https://www.th-koeln.de/weiterbildung/",
     "dates": "Regelmäßige Seminare seit 2024",
     "tags": ["Chatbot", "Workshop", "Training"],
     "language": "Deutsch"
@@ -148,7 +148,7 @@ const libraryData = [
     "internalImplementation": "Partnerschaften mit Harvard Institute for Digital Innovation zur KI-gestützten Digitalisierung historischer Sammlungen. Automatische Metadaten-Erweiterung für tausende historische Dokumente.",
     "externalPrograms": "'Intro to AI: What It Is and How to Use It' - Workshops für Bürger mit Stanford-Absolventen. 'A Beginner's Guide to News Literacy in the Age of AI' - Workshops zu Medienkompetenz.",
     "activities": ["Harvard-KI-Digitalisierung", "Stanford-Alumni-Workshops", "News Literacy Training", "Anti-Desinformation"],
-    "website": "https://bpl.org/news/ai-enhanced-digitization",
+    "website": "https://www.bpl.org/",
     "dates": "Seit Januar 2025, wöchentliche Workshops",
     "tags": ["KI/AI", "Metadaten", "Digitalisierung"],
     "language": "Englisch"
@@ -163,7 +163,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung und Testing von Machine Learning-Algorithmen zur automatischen Klassifikation und Empfehlung digitaler Sammlungen im NYPL Labs.",
     "externalPrograms": "Öffentliche Demonstrationen und Workshops zu KI-gestützten Empfehlungssystemen. Kooperationen mit Forschungseinrichtungen zur KI-Entwicklung.",
     "activities": ["NYPL Labs", "ML-Klassifikation", "Digital Collections", "KI-Empfehlungen"],
-    "website": "https://labs.nypl.org",
+    "website": "https://www.nypl.org/collections/labs",
     "dates": "Laufendes Pilotprojekt seit 2023",
     "tags": ["KI/AI", "Empfehlungen"],
     "language": "Englisch"
@@ -208,7 +208,7 @@ const libraryData = [
     "internalImplementation": "Teilnahme an der ULC-Forschungsinitiative zur ethischen Integration von KI-Technologien in öffentliche Bibliotheksservices.",
     "externalPrograms": "Entwicklung und Bereitstellung von Leitfäden und Case Studies für andere öffentliche Bibliotheken zur KI-Integration.",
     "activities": ["ULC Forschungsprojekt", "Ethische KI", "Case Studies", "Integration Leitfäden"],
-    "website": "https://urbanlibraries.org/ai-research",
+    "website": "https://urbanlibraries.org/",
     "dates": "Forschungsprojekt 2023-2025",
     "tags": ["KI/AI"],
     "language": "Englisch"
@@ -360,7 +360,7 @@ const libraryData = [
     "internalImplementation": "Einsatz von KI zur automatischen Transkription historischer Handschriften und OCR-gestützten Digitalisierung. Machine Learning für erweiterte Metadatengenerierung und Sammlungserschließung.",
     "externalPrograms": "Webinar-Serien für Bibliothekare zu ethischer KI-Nutzung und Data Governance. Öffentliche Workshops zu KI-gestützter Handschrifttranskription.",
     "activities": ["Handschrift-KI-Transkription", "Ethik-Webinare", "Data Governance Training", "OCR-Digitalisierung"],
-    "website": "https://bnf.fr/fr/les-projets-en-intelligence-artificielle",
+    "website": "https://www.bnf.fr/fr/intelligence-artificielle-et-bibliotheques",
     "dates": "Webinar-Serie 2025, laufende KI-Digitalisierung",
     "tags": ["OCR", "KI/AI"],
     "language": "Französisch"
@@ -435,7 +435,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung spezialisierter OCR-Systeme für chinesische Kalligrafie und historische Schriften mit LLM-Integration für Inhaltszusammenfassungen.",
     "externalPrograms": "Bereitstellung digitalisierter und durchsuchbarer historischer chinesischer Texte für Forscher und die Öffentlichkeit.",
     "activities": ["Chinese OCR", "Handschrift-Erkennung", "LLM-Zusammenfassung", "Digitale Kultur"],
-    "website": "https://nlc.cn/ai-projects",
+    "website": "https://www.nlc.cn/",
     "dates": "Laufende Projekte seit 2022",
     "tags": ["OCR", "KI/AI"],
     "language": "Englisch"
@@ -450,7 +450,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung von KI-Systemen zur automatischen Erkennung und Extraktion von Entitäten aus historischen niederländischen Zeitungsarchiven.",
     "externalPrograms": "Bereitstellung verbesserter Suchfunktionen für Forscher und Öffentlichkeit. Workshops zu KI-gestützter historischer Forschung.",
     "activities": ["Entity-Extraktion", "Zeitungsanalyse", "AI Labs", "Historische Forschung"],
-    "website": "https://kb.nl/projects/ai-labs",
+    "website": "https://www.kb.nl/en",
     "dates": "Pilot seit 2023",
     "tags": ["KI/AI"],
     "language": "Englisch"
@@ -465,7 +465,7 @@ const libraryData = [
     "internalImplementation": "LibrarIN-Forschungsprojekt zu automatisierter Katalogisierung, Metadaten-Generierung und OCR-gestützten Digitalisierungen. Natural Language Processing zur automatischen Erschließung historischer spanischer Dokumente.",
     "externalPrograms": "Pilotprojekte mit öffentlicher Beteiligung zur Verbesserung der KI-Algorithmen für historische spanische Texte. Workshops für Forscher und Studierende zu KI-gestützten Digital Humanities Methoden.",
     "activities": ["LibrarIN Forschungsprojekt", "Automatisierte Katalogisierung", "NLP für Spanisch", "Digital Humanities KI"],
-    "website": "https://bne.es/librarin",
+    "website": "https://www.bne.es/",
     "dates": "Laufende Forschung und Pilotprojekte",
     "tags": ["KI/AI", "Metadaten"],
     "language": "Spanisch"
@@ -480,7 +480,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung und Durchführung von KI-Bildungsprogrammen für die lokale Bevölkerung mit praktischen Demonstrationen aktueller KI-Tools.",
     "externalPrograms": "Regelmäßige Ateliers IA für Bürger*innen aller Altersgruppen. Hands-on Workshops zu ChatGPT, Bildgenerierung und anderen KI-Tools.",
     "activities": ["Ateliers IA", "KI-Tool Einführung", "Chatbot-Demos", "Bürger-Bildung"],
-    "website": "https://bml.lyon.fr/ateliers-ia",
+    "website": "https://www.bm-lyon.fr/",
     "dates": "Regelmäßige Workshops seit 2024",
     "tags": ["Workshop", "KI/AI", "Chatbot"],
     "language": "Französisch"
@@ -495,7 +495,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung eines WhatsApp-basierten Chatbots für Bürgerservice und personalisierte Medienempfehlungen.",
     "externalPrograms": "24/7 WhatsApp-Service für Bibliotheksnutzer mit KI-gestützten Empfehlungen und Auskunftsdienst.",
     "activities": ["WhatsApp Bot", "Medienempfehlungen", "Bürgerservice", "Mobile KI"],
-    "website": "https://bcn.cat/biblioteques/ai-chatbot",
+    "website": "https://ajuntament.barcelona.cat/biblioteques/",
     "dates": "Pilot seit 2024",
     "tags": ["Chatbot", "KI/AI", "Empfehlungen"],
     "language": "Spanisch"
@@ -510,7 +510,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung jugendgerechter KI-Bildungsprogramme mit praktischen Coding-Komponenten und vereinfachten ML-Tools.",
     "externalPrograms": "Regelmäßige Workshops für Jugendliche zur Einführung in KI-Programmierung und maschinelles Lernen mit hands-on Coding-Übungen.",
     "activities": ["Youth AI Education", "Coding Workshops", "Simplified ML", "STEM Programs"],
-    "website": "https://vasconcelos.gob.mx/eventos/ia-jovenes",
+    "website": "https://bibliotecavasconcelos.gob.mx/",
     "dates": "Regelmäßige Jugend-Workshops seit 2024",
     "tags": ["Workshop", "KI/AI", "Training"],
     "language": "Spanisch"
@@ -570,7 +570,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung eines ausgeklügelten Empfehlungssystems, das Nutzerprofile, Forschungsinteressen und fachliche Schwerpunkte für personalisierte Literaturempfehlungen nutzt.",
     "externalPrograms": "Öffentlich verfügbares Empfehlungssystem für Studierende und Forschende der USP mit KI-gestützter Fachliteratur-Suche.",
     "activities": ["Literature Recommendations", "User Profiling", "Research Support", "Academic AI"],
-    "website": "https://usp.br/bibliotecas/ia-recomendacao",
+    "website": "https://www.sib.usp.br/",
     "dates": "System seit 2023 aktiv",
     "tags": ["Empfehlungen", "KI/AI"],
     "language": "Englisch"
@@ -585,7 +585,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung akademischer KI-Programme für Hochschulbibliotheken mit Fokus auf Forschungsunterstützung und Lehre.",
     "externalPrograms": "Regelmäßige Seminarreihe mit internationalen KI-Experten und praktischen Workshops für Bibliothekare und Studierende.",
     "activities": ["Academic AI Seminare", "Expert Lectures", "Practical Labs", "Research Support"],
-    "website": "https://uba.ar/biblioteca/ia-academico",
+    "website": "https://www.uba.ar/",
     "dates": "Seminarreihe seit 2024",
     "tags": ["Workshop", "KI/AI", "Training"],
     "language": "Spanisch"
@@ -600,7 +600,7 @@ const libraryData = [
     "internalImplementation": "Spezialisierte KI-Algorithmen zur automatischen Erkennung und Indexierung katalanischer Kulturgüter und historischer Dokumente.",
     "externalPrograms": "Bereitstellung durchsuchbarer digitaler Sammlungen katalanischer Kultur für Forscher und die interessierte Öffentlichkeit.",
     "activities": ["Katalanische Digitalisierung", "OCR", "Metadaten-KI", "Cultural Heritage"],
-    "website": "https://bnc.cat/ai-projects",
+    "website": "https://www.bnc.cat/",
     "dates": "Projekte seit 2024",
     "tags": ["OCR", "KI/AI", "Metadaten", "Digitalisierung"],
     "language": "Spanisch"
@@ -615,7 +615,7 @@ const libraryData = [
     "internalImplementation": "Implementierung von KI-Systemen zur automatischen Übersetzung und Erschließung des mexikanischen Kulturerbes mit Fokus auf mehrsprachige Zugänglichkeit.",
     "externalPrograms": "Workshop-Serie zu KI-Anwendungen im Kulturerbe-Bereich für Bibliothekare, Archivare und Kulturwissenschaftler.",
     "activities": ["Cultural Heritage KI", "Auto-Translation", "Metadata Enrichment", "Workshop-Serie"],
-    "website": "https://bncmx.mx/ia-patrimonio",
+    "website": "https://bnm.unam.mx/",
     "dates": "Workshop-Serie seit 2024",
     "tags": ["Workshop", "KI/AI", "Metadaten"],
     "language": "Spanisch"
@@ -626,11 +626,11 @@ const libraryData = [
     "city": "London",
     "country": "Großbritannien",
     "type": "Nationalbibliothek",
-    "description": "'Living Knowledge' Programm: KI-gestützte Digitalisierung und Erschließung der nationalen Sammlung mit Schwerpunkt auf historischen Manuskripten.",
-    "internalImplementation": "Großangelegtes Digitalisierungsprogramm mit KI-gestützter OCR für historische Handschriften und automatischer Metadaten-Generierung für Millionen von Dokumenten.",
-    "externalPrograms": "Öffentliche Workshops zu KI-gestützter Forschung und Digital Humanities. Kooperationen mit Universitäten zur Entwicklung neuer KI-Methoden für Geisteswissenschaften.",
-    "activities": ["Living Knowledge", "Handschrift-Digitalisierung", "Digital Humanities", "KI-Forschung"],
-    "website": "https://bl.uk/projects/living-knowledge",
+    "description": "'Living with Machines': KI-gestützte Analyse historischer Zeitungen des 19. Jh. in Kooperation mit The Alan Turing Institute – eines der größten digitalen Geisteswissenschaftsprojekte Europas.",
+    "internalImplementation": "Großangelegtes ML-Projekt zur Analyse historischer Zeitungsbestände der British Library. NLP-Methoden zur Analyse gesellschaftlicher Veränderungen der Industrialisierung.",
+    "externalPrograms": "Öffentlich verfügbare Forschungsergebnisse und Datensätze. Workshops zu KI-gestützter historischer Forschung. Veröffentlichung aller Tools als Open Source.",
+    "activities": ["Living with Machines", "Historische Zeitungsanalyse", "NLP", "Alan Turing Institute"],
+    "website": "https://livingwithmachines.ac.uk/",
     "dates": "Großprogramm seit 2023",
     "tags": ["OCR", "KI/AI", "Digitalisierung"],
     "language": "Englisch"
@@ -660,7 +660,7 @@ const libraryData = [
     "internalImplementation": "Implementierung fortgeschrittener OCR- und NLP-Technologien für die ANNO-Zeitungssammlung mit automatischer Erkennung von Personen, Orten und Ereignissen.",
     "externalPrograms": "Verbesserte Suchfunktionen für Forscher und interessierte Öffentlichkeit. Workshops zu KI-gestützter historischer Forschung mit österreichischen Quellen.",
     "activities": ["ANNO AI", "Zeitungs-OCR", "Entitätserkennung", "Historische Forschung"],
-    "website": "https://onb.ac.at/forschung/anno-ai",
+    "website": "https://anno.onb.ac.at/",
     "dates": "Upgrade seit 2024",
     "tags": ["OCR", "KI/AI"],
     "language": "Deutsch"
@@ -675,7 +675,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung von KI-Systemen zur automatischen Klassifikation schwedischer historischer Dokumente und maschinelle Übersetzung für internationale Zugänglichkeit.",
     "externalPrograms": "Mehrsprachige Plattform für schwedisches Kulturerbe. KI-Workshops für skandinavische Bibliothekare und nordische Kooperationsprojekte.",
     "activities": ["Digitala Samlingar", "Schwedisch-KI", "Auto-Übersetzung", "Nordische Kooperation"],
-    "website": "https://kb.se/digitala-samlingar-ai",
+    "website": "https://www.kb.se/",
     "dates": "Initiative seit 2024",
     "tags": ["KI/AI", "Digitalisierung"],
     "language": "Schwedisch"
@@ -690,7 +690,7 @@ const libraryData = [
     "internalImplementation": "Spezialisierte KI-Entwicklung für polnische Sprache und historische Schriftarten, insbesondere gotische und kyrillische Texte.",
     "externalPrograms": "Digitale Sammlung polnischer Literatur mit KI-gestützten Suchfunktionen. Workshops für Slavistik-Forscher zu KI-Methoden.",
     "activities": ["Polonica AI", "Gotische OCR", "Polnische NLP", "Slavistik-KI"],
-    "website": "https://bn.org.pl/projekty/polonica-ai",
+    "website": "https://www.bn.org.pl/",
     "dates": "Projekt seit 2024",
     "tags": ["OCR", "KI/AI", "Digitalisierung"],
     "language": "Polnisch"
@@ -705,7 +705,7 @@ const libraryData = [
     "internalImplementation": "Upgrade der bestehenden Trove-Plattform mit fortgeschrittenen KI-Technologien für bessere OCR-Ergebnisse und automatische Themenerschließung australischer Inhalte.",
     "externalPrograms": "Verbesserte Suchfunktionen für australische Geschichte und Kultur. KI-Workshops für Forscher zu australischen digitalen Sammlungen.",
     "activities": ["Trove AI", "Australische Geschichte", "Themenklassifikation", "OCR-Verbesserung"],
-    "website": "https://nla.gov.au/trove-ai",
+    "website": "https://trove.nla.gov.au/",
     "dates": "Enhancement seit 2024",
     "tags": ["OCR", "KI/AI", "Empfehlungen"],
     "language": "Englisch"
@@ -720,7 +720,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung fortgeschrittener OCR-Systeme für komplexe japanische Schriftsysteme und KI-gestützte Übersetzung für internationale Zugänglichkeit japanischer Sammlungen.",
     "externalPrograms": "Mehrsprachige Plattform für japanisches Kulturerbe. Internationale Kooperationen zu asiatischer KI-Entwicklung für Bibliotheken.",
     "activities": ["Japanische OCR", "Multi-Script AI", "Auto-Übersetzung", "Asiatische KI-Kooperation"],
-    "website": "https://ndl.go.jp/en/ai-collections",
+    "website": "https://dl.ndl.go.jp/en/",
     "dates": "Entwicklung seit 2023",
     "tags": ["OCR", "KI/AI"],
     "language": "Japanisch"
@@ -735,7 +735,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung von KI-Systemen für über 15 indische Sprachen zur Digitalisierung und Erschließung des reichen kulturellen Erbes Indiens.",
     "externalPrograms": "Mehrsprachige digitale Plattform für indisches Kulturerbe. KI-Workshops für südasiatische Bibliothekare und Forscher.",
     "activities": ["Multilingual Indian AI", "Cultural Heritage", "15+ Sprachen", "Südasien-Kooperation"],
-    "website": "https://nli.gov.in/digital-heritage-ai",
+    "website": "https://nli.gov.in/",
     "dates": "Großprojekt seit 2024",
     "tags": ["OCR", "KI/AI", "Digitalisierung"],
     "language": "Englisch"
@@ -750,7 +750,7 @@ const libraryData = [
     "internalImplementation": "Spezialisierte KI-Entwicklung für arabische Kalligrafie und historische Manuskripte mit Fokus auf islamisches und mediterranes Kulturerbe.",
     "externalPrograms": "Digitale Plattform für arabische und mediterrane Kulturen. Internationale Kooperationen zu KI für arabische Sprachen und Kulturen.",
     "activities": ["Arabische Kalligrafie-KI", "Islamisches Erbe", "Mediterrane Kulturen", "Arabisch-NLP"],
-    "website": "https://bibalex.org/digital-alexandria-ai",
+    "website": "https://www.bibalex.org/",
     "dates": "Projekt seit 2024",
     "tags": ["OCR", "KI/AI", "Digitalisierung"],
     "language": "Arabisch"
@@ -840,7 +840,7 @@ const libraryData = [
     "internalImplementation": "Entwicklung spezialisierter KI-Systeme für kyrillische Schriften verschiedener Epochen und automatische Erschließung der umfangreichen russischen Literatursammlung.",
     "externalPrograms": "Digitale Plattform für russische Literatur und Kultur. KI-Workshops für slawische Studien und osteuropäische Bibliothekare.",
     "activities": ["Kyrillische OCR", "Russische Literatur-KI", "Slawische Studien", "Osteuropa-Kooperation"],
-    "website": "https://rsl.ru/cyrillic-ai",
+    "website": "https://www.rsl.ru/",
     "dates": "Projekt seit 2023",
     "tags": ["OCR", "KI/AI", "Digitalisierung"],
     "language": "Russisch"
