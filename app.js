@@ -1148,46 +1148,28 @@ function updateResultsCounter() {
 function renderLibraries() {
   const grid = document.getElementById('libraries-grid');
   if (!grid) return;
-  
-  // Add fade out animation
-  grid.style.opacity = '0.5';
-  
-  setTimeout(() => {
-    // Clear grid
-    grid.innerHTML = '';
 
-    // Check if we have any results
-    if (filteredData.length === 0) {
-      grid.innerHTML = `
-        <div class="empty-state">
-          <h3>Keine Ergebnisse gefunden</h3>
-          <p>Versuchen Sie andere Suchbegriffe oder Filter.</p>
-        </div>
-      `;
-      grid.style.opacity = '1';
-      return;
-    }
+  grid.innerHTML = '';
 
-    // Sort libraries alphabetically
-    const sortedLibraries = filteredData.sort((a, b) => a.name.localeCompare(b.name));
+  if (filteredData.length === 0) {
+    grid.innerHTML = `
+      <div class="empty-state">
+        <h3>Keine Ergebnisse gefunden</h3>
+        <p>Versuchen Sie andere Suchbegriffe oder Filter.</p>
+      </div>
+    `;
+    return;
+  }
 
-    // Create library cards
-    sortedLibraries.forEach((library, index) => {
-      const libraryCard = createLibraryCard(library);
-      // Add staggered animation
-      libraryCard.style.animationDelay = `${index * 0.05}s`;
-      grid.appendChild(libraryCard);
-    });
-    
-    // Fade in with staggered animation
-    grid.style.opacity = '1';
-  }, 150);
+  const sortedLibraries = filteredData.sort((a, b) => a.name.localeCompare(b.name));
+  sortedLibraries.forEach(library => {
+    grid.appendChild(createLibraryCard(library));
+  });
 }
 
 function createLibraryCard(library) {
   const card = document.createElement('div');
   card.className = 'library-card';
-  card.style.animation = 'fadeInUp 0.6s ease-out both';
   card.tabIndex = 0; // Make focusable for keyboard navigation
   card.setAttribute('role', 'button');
   card.setAttribute('aria-label', `Details zu ${library.name} anzeigen`);
