@@ -184,21 +184,6 @@ const libraryData = [
     "language": "Englisch"
   },
   {
-    "name": "Library of Congress Labs",
-    "location": "USA / Washington, D.C.",
-    "city": "Washington D.C.",
-    "country": "USA",
-    "type": "Nationalbibliothek",
-    "description": "Versuchsreihen zu OCR-Texterkennung, ML-gestützter Kataloging-Record-Generation und ethische KI-Implementierung.",
-    "internalImplementation": "Experimentelle KI-Forschung und -Entwicklung für die Digitalisierung und Erschließung der nationalen Sammlungen mit ethischen KI-Standards.",
-    "externalPrograms": "Veröffentlichung von Open-Source-Tools und Best-Practice-Leitfäden für Bibliotheken weltweit. Workshops zu ethischer KI-Implementierung.",
-    "activities": ["OCR-Forschung", "ML-Katalogisierung", "Ethische KI", "Open Source Tools"],
-    "website": "https://loc.gov/labs/work/experiments/machine-learning/",
-    "dates": "Laufende Forschung seit 2019",
-    "tags": ["OCR", "KI/AI", "Training"],
-    "language": "Englisch"
-  },
-  {
     "name": "Frisco Public Library",
     "location": "USA / Frisco (Texas)",
     "city": "Frisco",
@@ -360,25 +345,10 @@ const libraryData = [
     "internalImplementation": "Einsatz von KI zur automatischen Transkription historischer Handschriften und OCR-gestützten Digitalisierung. Machine Learning für erweiterte Metadatengenerierung und Sammlungserschließung.",
     "externalPrograms": "Webinar-Serien für Bibliothekare zu ethischer KI-Nutzung und Data Governance. Öffentliche Workshops zu KI-gestützter Handschrifttranskription.",
     "activities": ["Handschrift-KI-Transkription", "Ethik-Webinare", "Data Governance Training", "OCR-Digitalisierung"],
-    "website": "https://www.bnf.fr/fr/intelligence-artificielle-et-bibliotheques",
+    "website": "https://www.bnf.fr/en/artificial-intelligence-bnf",
     "dates": "Webinar-Serie 2025, laufende KI-Digitalisierung",
     "tags": ["OCR", "KI/AI"],
     "language": "Französisch"
-  },
-  {
-    "name": "National Library Board Singapore",
-    "location": "Singapur",
-    "city": "Singapur",
-    "country": "Singapur",
-    "type": "Nationalbibliothek",
-    "description": "Stadtweites Programm 'Libraries and AI': KI-Showcases in allen 28 öffentlichen Bibliotheken; interaktive Ausstellungen zu urbaner KI.",
-    "internalImplementation": "Integration von KI-Showcases in alle öffentlichen Bibliotheken Singapurs. Entwicklung von KI-gestützten Bibliotheksservices und Automatisierung von Routineaufgaben.",
-    "externalPrograms": "Experiential AI-Showcases in öffentlichen Bibliotheken im ganzen Stadtstaat. DesCartes-Ausstellung zu verantwortungsvoller urbaner KI. 'Be SURE with Generative AI' - Workshops.",
-    "activities": ["Citywide AI-Showcases", "DesCartes Ausstellung", "Be SURE GenAI", "Erwachsenen-KI-Kurse"],
-    "website": "https://sure.nlb.gov.sg",
-    "dates": "Laufende Showcases seit 2024",
-    "tags": ["KI/AI", "Workshop"],
-    "language": "Englisch"
   },
   {
     "name": "Vancouver Public Library",
@@ -671,12 +641,12 @@ const libraryData = [
     "city": "Stockholm",
     "country": "Schweden",
     "type": "Nationalbibliothek",
-    "description": "'Digitala Samlingar AI': Automatische Klassifikation und Übersetzung schwedischer historischer Dokumente.",
-    "internalImplementation": "Entwicklung von KI-Systemen zur automatischen Klassifikation schwedischer historischer Dokumente und maschinelle Übersetzung für internationale Zugänglichkeit.",
-    "externalPrograms": "Mehrsprachige Plattform für schwedisches Kulturerbe. KI-Workshops für skandinavische Bibliothekare und nordische Kooperationsprojekte.",
-    "activities": ["Digitala Samlingar", "Schwedisch-KI", "Auto-Übersetzung", "Nordische Kooperation"],
+    "description": "'KBLab': Eigenes KI-Labor für Text- und Bilderkennung. BERT-Modell für Schwedisch entwickelt. Kooperation mit der Schwedischen Akademie für KI-gestützte Wörterbucherstellung.",
+    "internalImplementation": "KBLab entwickelt KI-Modelle für schwedische Sprache und historische Sammlungen. Bildsök-Dienst macht 17.000+ digitalisierte Postkarten per KI zugänglich. Kooperation mit Universität Göteborg.",
+    "externalPrograms": "Open-Source-Veröffentlichung aller entwickelten Modelle. Kooperation mit der Schwedischen Akademie. Ressourcen für schwedischsprachige NLP-Forschung.",
+    "activities": ["KBLab KI-Labor", "Schwedisches BERT", "Bildsök Bildsuche", "Open Source Modelle"],
     "website": "https://www.kb.se/",
-    "dates": "Initiative seit 2024",
+    "dates": "KBLab aktiv seit 2020",
     "tags": ["KI/AI", "Digitalisierung"],
     "language": "Schwedisch"
   },
@@ -830,6 +800,67 @@ const libraryData = [
     "tags": ["KI/AI", "Metadaten", "Erschließung"],
     "language": "Deutsch"
   },
+,
+  {
+    "name": "Nasjonalbiblioteket – AI-Lab (Norwegen)",
+    "location": "Norwegen / Oslo",
+    "city": "Oslo",
+    "country": "Norwegen",
+    "type": "Nationalbibliothek",
+    "description": "Eigenes KI-Labor 'NB AI-Lab': LLM-Entwicklung für Norwegisch, AI-gestützte Discovery-Engine 'Maken' und Bildsök-Bildsuche über 17.000 digitalisierte Postkarten.",
+    "internalImplementation": "Dediziertes AI-Lab mit eigenen LLM-Modellen für norwegische Sprache. Kooperation mit Universität Göteborg. Maken-Discovery-Engine für visuelle und textliche Ähnlichkeitssuche im Nationalbestand.",
+    "externalPrograms": "Öffentlich zugängliche KI-Suchwerkzeuge für Forscher und Interessierte. Open-Source-Veröffentlichung der entwickelten Modelle. Beiträge zur internationalen Bibliotheks-KI-Community.",
+    "activities": ["NB AI-Lab", "Eigene LLMs", "Maken Discovery", "Bildsök Bildsuche"],
+    "website": "https://ai.nb.no/",
+    "dates": "AI-Lab aktiv seit 2022, laufende Entwicklung",
+    "tags": ["KI/AI", "Erschließung", "Metadaten"],
+    "language": "Englisch"
+  },
+  {
+    "name": "KBR – Königliche Bibliothek Belgien",
+    "location": "Belgien / Brüssel",
+    "city": "Brüssel",
+    "country": "Belgien",
+    "type": "Nationalbibliothek",
+    "description": "Retrokatalogisierungsprojekt mit KI und Microsoft Power Platform: automatische Erschließung historischer Dokumente. Zusätzlich: LLM-gestützte Sacherschließung in Entwicklung.",
+    "internalImplementation": "Automatisiertes Retrokatalogisierungsprojekt seit Oktober 2022 mit KI und Power Platform. Laufende Entwicklung von LLM-gestützter Sacherschließung mit Python. Ziel: massive Beschleunigung der Erschließungsrückstände.",
+    "externalPrograms": "Bereitstellung erschlossener historischer Sammlungen für Forschende und die Öffentlichkeit. Präsentation der Methodik auf internationalen Bibliothekskonferenzen.",
+    "activities": ["Retrokatalogisierung KI", "Power Platform", "LLM-Erschließung", "Historische Bestände"],
+    "website": "https://www.kbr.be/",
+    "dates": "Retrokatalog-Projekt seit Oktober 2022",
+    "tags": ["KI/AI", "Erschließung", "Metadaten"],
+    "language": "Englisch"
+  },
+  {
+    "name": "Helsinki City Library – Oodi",
+    "location": "Finnland / Helsinki",
+    "city": "Helsinki",
+    "country": "Finnland",
+    "type": "Öffentliche Bibliothek",
+    "description": "Sechs thematische KI-Chatbots mit kontextueller Buchempfehlung. KI-Literacy-Programme inklusive 'Elements of AI' – Kurs erreichte 1% der finnischen Bevölkerung.",
+    "internalImplementation": "Entwicklung und Betrieb von 6 spezialisierten KI-Chatbots für unterschiedliche Themengebiete. Integration von KI in das Discovery-System der Stadtbibliothek Helsinki.",
+    "externalPrograms": "'Elements of AI' und weitere KI-Literacy-Programme für Bürger*innen aller Altersgruppen. Urban Workshop mit Makerspaces. Pionier in öffentlicher KI-Bildung in Skandinavien.",
+    "activities": ["6 thematische Chatbots", "Elements of AI", "KI-Literacy", "Urban Workshop"],
+    "website": "https://oodihelsinki.fi/en/",
+    "dates": "Laufende Programme seit 2022",
+    "tags": ["Chatbot", "KI/AI", "KI-Literacy", "Workshop"],
+    "language": "Englisch"
+  },
+  {
+    "name": "LIBRA.I. – Goethe Institut / Erasmus+",
+    "location": "Europa / Mehrere Länder",
+    "city": "München",
+    "country": "Deutschland",
+    "type": "Öffentliche Bibliothek",
+    "description": "EU-gefördertes Erasmus+-Projekt: KI-Integration in Medien- und Lernkompetenztrainings öffentlicher Bibliotheken (D, AT, CH). Bibliothekspersonal wird zu KI-Lotsen ausgebildet.",
+    "internalImplementation": "Goethe-Institut koordiniert Verbundprojekt mit Partnerbibliotheken in Deutschland, Österreich und der Schweiz. Entwicklung von Trainingsmaterialien und Lehrplänen für KI-gestützte Medienkompetenz.",
+    "externalPrograms": "Schulungen für Bibliothekspersonal zu KI-Grundlagen, Desinformation und ethischen Implikationen. Aufbau von KI-Literacy-Angeboten für die Öffentlichkeit. Laufzeit November 2024 – Oktober 2026.",
+    "activities": ["Erasmus+ Verbundprojekt", "KI-Lotsen Ausbildung", "Medienkompetenz", "DACH-Kooperation"],
+    "website": "https://www.goethe.de/prj/lib/en/prj.html",
+    "dates": "November 2024 – Oktober 2026",
+    "tags": ["KI/AI", "KI-Literacy", "Workshop", "Training"],
+    "language": "Deutsch"
+  },
   {
     "name": "Russian State Library",
     "location": "Russland / Moskau",
@@ -871,7 +902,10 @@ const countryFlags = {
   'Japan': '🇯🇵',
   'Indien': '🇮🇳',
   'Ägypten': '🇪🇬',
-  'Russland': '🇷🇺'
+  'Russland': '🇷🇺',
+  'Norwegen': '🇳🇴',
+  'Belgien': '🇧🇪',
+  'Finnland': '🇫🇮'
 };
 
 // Global variables
