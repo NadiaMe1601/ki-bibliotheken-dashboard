@@ -46,7 +46,7 @@
   /* Semantic Color Tokens (Light Mode) */
   --color-background: var(--color-cream-50);
   --color-surface: var(--color-cream-100);
-  --color-text: var(--color-slate-900);
+  --color-text: #1A1A1A;
   --color-text-secondary: #5A5A5A;
   --color-primary: #0066CC;
   --color-primary-hover: #0052A3;
@@ -272,7 +272,7 @@
   /* Semantic Color Tokens (Light Mode) */
   --color-background: var(--color-cream-50);
   --color-surface: var(--color-cream-100);
-  --color-text: var(--color-slate-900);
+  --color-text: #1A1A1A;
   --color-text-secondary: #5A5A5A;
   --color-primary: #0066CC;
   --color-primary-hover: #0052A3;
